@@ -469,7 +469,7 @@ nav li .active {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: AllerLt;
+    font-family: AllerRg;
     font-weight: normal;
 }
 
@@ -625,7 +625,7 @@ nav li .active {
     color: #242424;
     font-size: 18px;
     text-align: center;
-    font-family: AllerLt;
+    font-family: AllerRg;
 }
 
 .item-actions {
@@ -745,20 +745,25 @@ nav li .active {
 .date {
     background-color: #57c5a0;
     text-align: center;
-    height: 35px;
-    width: 35px;
+    max-height: 35px;
+    max-width: 35px;
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 10px;
+    display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     min-width: 35px;
     min-height: 35px;
     margin-right: 10px;
+    line-height: 10px;
 }
 
-.date span {
+.date span.day {
     font-size: 13px;
+    line-height: 13px;
+    margin-bottom: 5px;
 }
 
 .blog-desc h5 {
