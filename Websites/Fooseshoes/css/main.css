@@ -116,7 +116,7 @@ textarea {
 
 @font-face {
     font-family: AllerLt;
-    src: url('../fonts/Aller_lt.ttf');
+    src: url('../fonts/Aller_Lt.ttf');
 }
 
 body {
@@ -498,10 +498,13 @@ nav li .active {
     left: 44px;
     font-size: 25px;
     font-family: AllerLt;
-    font-weight: normal;
     text-transform: uppercase;
     width: 200px;
     text-align: center;
+}
+
+.specials-item-text h4{
+  font-weight: normal;
 }
 
 .main-content {
@@ -622,7 +625,6 @@ nav li .active {
     color: #242424;
     font-size: 18px;
     text-align: center;
-    font-weight: normal;
     font-family: AllerLt;
 }
 
@@ -659,6 +661,7 @@ nav li .active {
 
 .mc-item-text h4 {
     padding-top: 14px;
+    font-weight: normal;
 }
 
 .on-sale {
