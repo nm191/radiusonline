@@ -96,7 +96,7 @@ textarea {
    ========================================================================== */
 @font-face {
     font-family: Bebas;
-    src: url('../fonts/BEBAS.ttf');
+    src: url('../fonts/BEBAS.TTF');
 }
 
 @font-face {
@@ -774,6 +774,134 @@ footer{
 
 /*END FOOTER*/
 
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 965px){
+    .container{
+        width: 98%;
+        padding: 0 1%;
+    }
+
+    .main-content{
+        width: 100%;
+    }
+
+    .slider-img img{
+        width: 100%;
+    }
+
+    .slider-desc{
+        display: none;
+    }
+
+    .slider-thumbs{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .slider-thumbs img{
+        margin-top: 10px;
+    }
+
+    .left{
+        display: none;
+    }
+
+    .right{
+        display: none;
+    }
+
+    .widgets{
+        min-width: 100%;
+    }
+
+    .page-title{
+        min-width: 100%;
+    }
+
+    .recent-work-items{
+        flex-wrap: wrap;
+    }
+
+    .recent-work-item{
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 820px){
+    .blog .sidebar, .contact-us .sidebar{
+        display: none;
+    }
+
+    .blog-container, .blog-img, .contact{
+        width: 100%;
+    }
+
+    .recent-work-title .divider{
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 620px){
+    .contact-items{
+        flex-wrap: wrap;
+    }
+
+    .contact-details, .contact-form{
+        width: 100%;
+        margin: 0 1%;
+    }
+
+    .form input[type="text"], .form input[type="email"], .form textarea{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 570px){
+    .slider-navigation{
+        display: none;
+    }
+
+    .feature-items{
+        flex-wrap: wrap;
+    }
+
+    .widgets{
+        flex-wrap: wrap;
+    }
+
+    .sidebar-title .divider{
+        display: none;
+    }
+
+    .about-us .sidebar{
+        display: none;
+    }
+
+    .about{
+        width: 100%;
+    }
+
+    .recent-work-title .divider{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .portfolio-items{
+        justify-content: center;
+    }
+
+    .recent-work-items{
+        justify-content: center;
+    }
+
+    .recent-work-title .divider{
+        display: none;
+    }
+}
+/*END MEDIA QUERIES*/
 
 
 
