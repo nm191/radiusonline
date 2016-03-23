@@ -262,6 +262,11 @@ header .container{
     margin-right: 25px;
 }
 
+.feature-item p{
+    font-size: 0.75rem;
+    color: #414141;
+}
+
 .more{
     font-size: 0.75rem;
     background-color: #e8663c;
@@ -899,6 +904,13 @@ footer{
 
     .recent-work-title .divider{
         display: none;
+    }
+}
+
+@media screen and (max-width: 350px){
+    nav li{
+        display: block;
+        margin-bottom: 5px;
     }
 }
 /*END MEDIA QUERIES*/
